@@ -1,0 +1,2 @@
+El siguiente desarrollo tiene como objetivo llevar control de denuncias
+hechas por un ciudadano por cualquier tipo de delito observado y reportado.
