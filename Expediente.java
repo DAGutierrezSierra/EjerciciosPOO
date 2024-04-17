@@ -29,6 +29,4 @@ public class Expediente {
         this.denunciado = denunciado;
     }
 
-    // Otros métodos para acceder a la información del expediente...
-
 }
