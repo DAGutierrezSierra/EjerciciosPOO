@@ -26,6 +26,4 @@ public class GestorDenuncias {
         
         return ultimoNumeroExpediente;
     }
-
-    // Otros métodos para buscar expedientes, agregar detalles, etc...
 }
