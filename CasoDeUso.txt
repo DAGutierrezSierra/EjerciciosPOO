@@ -2,7 +2,7 @@ Programación Orientada a Objetos IS410
 
 Catedrático: Ing. Miguel Sauceda 
 
-Integrantes: Dionicio Alberto Gutiérrez  
+Integrantes: Dionisio Alberto Gutiérrez  
              Henry Antonio Santos  
 
 Caso de Uso: Crear Denuncia 
