@@ -17,6 +17,7 @@ public class ConexionBD {
     private static final String PASSWORD = "123";
     private static Connection connection;
 
+    /**
     public static Connection getConnection() {
         if (connection == null) {
             try {
@@ -27,7 +28,19 @@ public class ConexionBD {
         }
         return connection;
     }
-
+    */
+    
+    public static Connection getConnection() {
+    try {
+        if (connection == null || connection.isClosed()) {
+            connection = DriverManager.getConnection(URL, USER, PASSWORD);
+        }
+    } catch (SQLException ex) {
+        System.out.println("Error al conectar a la base de datos: " + ex.getMessage());
+    }
+    return connection;
+    }
+    
     public static void cerrarConexion() {
         if (connection != null) {
             try {
